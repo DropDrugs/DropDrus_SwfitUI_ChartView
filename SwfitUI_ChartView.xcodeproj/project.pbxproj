@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3DAFD43F2CFA3C320044D0E0 /* DropDrug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAFD4362CFA3C310044D0E0 /* DropDrug.framework */; };
+		3DAFD43F2CFA3C320044D0E0 /* SwfitUI_ChartView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAFD4362CFA3C310044D0E0 /* SwfitUI_ChartView.framework */; };
+		3DAFD4572CFA3DE20044D0E0 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAFD4562CFA3DE20044D0E0 /* Charts.framework */; };
+		3DAFD4592CFA3DE80044D0E0 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAFD4582CFA3DE80044D0E0 /* SwiftUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,32 +23,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3DAFD4362CFA3C310044D0E0 /* DropDrug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DropDrug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DAFD43E2CFA3C320044D0E0 /* DropDrugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropDrugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DAFD4362CFA3C310044D0E0 /* SwfitUI_ChartView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwfitUI_ChartView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DAFD43E2CFA3C320044D0E0 /* SwfitUI_ChartViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwfitUI_ChartViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DAFD4562CFA3DE20044D0E0 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.sdk/System/Library/Frameworks/Charts.framework; sourceTree = DEVELOPER_DIR; };
+		3DAFD4582CFA3DE80044D0E0 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.sdk/System/Library/Frameworks/SwiftUI.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		3DAFD4462CFA3C320044D0E0 /* Exceptions for "DropDrug" folder in "DropDrug" target */ = {
+		3DAFD4462CFA3C320044D0E0 /* Exceptions for "SwfitUI_ChartView" folder in "SwfitUI_ChartView" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			publicHeaders = (
-				DropDrug.h,
+				SwfitUI_ChartView.h,
 			);
-			target = 3DAFD4352CFA3C310044D0E0 /* DropDrug */;
+			target = 3DAFD4352CFA3C310044D0E0 /* SwfitUI_ChartView */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		3DAFD4382CFA3C310044D0E0 /* DropDrug */ = {
+		3DAFD4382CFA3C310044D0E0 /* SwfitUI_ChartView */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				3DAFD4462CFA3C320044D0E0 /* Exceptions for "DropDrug" folder in "DropDrug" target */,
+				3DAFD4462CFA3C320044D0E0 /* Exceptions for "SwfitUI_ChartView" folder in "SwfitUI_ChartView" target */,
 			);
-			path = DropDrug;
+			path = SwfitUI_ChartView;
 			sourceTree = "<group>";
 		};
-		3DAFD4422CFA3C320044D0E0 /* DropDrugTests */ = {
+		3DAFD4422CFA3C320044D0E0 /* SwfitUI_ChartViewTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DropDrugTests;
+			path = SwfitUI_ChartViewTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -56,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DAFD4592CFA3DE80044D0E0 /* SwiftUI.framework in Frameworks */,
+				3DAFD4572CFA3DE20044D0E0 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DAFD43F2CFA3C320044D0E0 /* DropDrug.framework in Frameworks */,
+				3DAFD43F2CFA3C320044D0E0 /* SwfitUI_ChartView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,8 +79,9 @@
 		3DAFD42C2CFA3C310044D0E0 = {
 			isa = PBXGroup;
 			children = (
-				3DAFD4382CFA3C310044D0E0 /* DropDrug */,
-				3DAFD4422CFA3C320044D0E0 /* DropDrugTests */,
+				3DAFD4382CFA3C310044D0E0 /* SwfitUI_ChartView */,
+				3DAFD4422CFA3C320044D0E0 /* SwfitUI_ChartViewTests */,
+				3DAFD4552CFA3DE20044D0E0 /* Frameworks */,
 				3DAFD4372CFA3C310044D0E0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,10 +89,19 @@
 		3DAFD4372CFA3C310044D0E0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3DAFD4362CFA3C310044D0E0 /* DropDrug.framework */,
-				3DAFD43E2CFA3C320044D0E0 /* DropDrugTests.xctest */,
+				3DAFD4362CFA3C310044D0E0 /* SwfitUI_ChartView.framework */,
+				3DAFD43E2CFA3C320044D0E0 /* SwfitUI_ChartViewTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3DAFD4552CFA3DE20044D0E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DAFD4582CFA3DE80044D0E0 /* SwiftUI.framework */,
+				3DAFD4562CFA3DE20044D0E0 /* Charts.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,9 +117,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3DAFD4352CFA3C310044D0E0 /* DropDrug */ = {
+		3DAFD4352CFA3C310044D0E0 /* SwfitUI_ChartView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DAFD4472CFA3C320044D0E0 /* Build configuration list for PBXNativeTarget "DropDrug" */;
+			buildConfigurationList = 3DAFD4472CFA3C320044D0E0 /* Build configuration list for PBXNativeTarget "SwfitUI_ChartView" */;
 			buildPhases = (
 				3DAFD4312CFA3C310044D0E0 /* Headers */,
 				3DAFD4322CFA3C310044D0E0 /* Sources */,
@@ -115,18 +131,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				3DAFD4382CFA3C310044D0E0 /* DropDrug */,
+				3DAFD4382CFA3C310044D0E0 /* SwfitUI_ChartView */,
 			);
-			name = DropDrug;
+			name = SwfitUI_ChartView;
 			packageProductDependencies = (
 			);
 			productName = DropDrug;
-			productReference = 3DAFD4362CFA3C310044D0E0 /* DropDrug.framework */;
+			productReference = 3DAFD4362CFA3C310044D0E0 /* SwfitUI_ChartView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3DAFD43D2CFA3C320044D0E0 /* DropDrugTests */ = {
+		3DAFD43D2CFA3C320044D0E0 /* SwfitUI_ChartViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DAFD44C2CFA3C320044D0E0 /* Build configuration list for PBXNativeTarget "DropDrugTests" */;
+			buildConfigurationList = 3DAFD44C2CFA3C320044D0E0 /* Build configuration list for PBXNativeTarget "SwfitUI_ChartViewTests" */;
 			buildPhases = (
 				3DAFD43A2CFA3C320044D0E0 /* Sources */,
 				3DAFD43B2CFA3C320044D0E0 /* Frameworks */,
@@ -138,13 +154,13 @@
 				3DAFD4412CFA3C320044D0E0 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				3DAFD4422CFA3C320044D0E0 /* DropDrugTests */,
+				3DAFD4422CFA3C320044D0E0 /* SwfitUI_ChartViewTests */,
 			);
-			name = DropDrugTests;
+			name = SwfitUI_ChartViewTests;
 			packageProductDependencies = (
 			);
 			productName = DropDrugTests;
-			productReference = 3DAFD43E2CFA3C320044D0E0 /* DropDrugTests.xctest */;
+			productReference = 3DAFD43E2CFA3C320044D0E0 /* SwfitUI_ChartViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -159,13 +175,14 @@
 				TargetAttributes = {
 					3DAFD4352CFA3C310044D0E0 = {
 						CreatedOnToolsVersion = 16.1;
+						LastSwiftMigration = 1610;
 					};
 					3DAFD43D2CFA3C320044D0E0 = {
 						CreatedOnToolsVersion = 16.1;
 					};
 				};
 			};
-			buildConfigurationList = 3DAFD4302CFA3C310044D0E0 /* Build configuration list for PBXProject "DropDrug" */;
+			buildConfigurationList = 3DAFD4302CFA3C310044D0E0 /* Build configuration list for PBXProject "SwfitUI_ChartView" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -179,8 +196,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3DAFD4352CFA3C310044D0E0 /* DropDrug */,
-				3DAFD43D2CFA3C320044D0E0 /* DropDrugTests */,
+				3DAFD4352CFA3C310044D0E0 /* SwfitUI_ChartView */,
+				3DAFD43D2CFA3C320044D0E0 /* SwfitUI_ChartViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -222,7 +239,7 @@
 /* Begin PBXTargetDependency section */
 		3DAFD4412CFA3C320044D0E0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3DAFD4352CFA3C310044D0E0 /* DropDrug */;
+			target = 3DAFD4352CFA3C310044D0E0 /* SwfitUI_ChartView */;
 			targetProxy = 3DAFD4402CFA3C320044D0E0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -233,6 +250,7 @@
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -243,7 +261,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
@@ -260,11 +278,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 2.1;
 			};
 			name = Debug;
@@ -274,6 +294,7 @@
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -284,7 +305,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
@@ -301,11 +322,12 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 2.1;
 			};
 			name = Release;
@@ -475,7 +497,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3DAFD4302CFA3C310044D0E0 /* Build configuration list for PBXProject "DropDrug" */ = {
+		3DAFD4302CFA3C310044D0E0 /* Build configuration list for PBXProject "SwfitUI_ChartView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3DAFD44A2CFA3C320044D0E0 /* Debug */,
@@ -484,7 +506,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3DAFD4472CFA3C320044D0E0 /* Build configuration list for PBXNativeTarget "DropDrug" */ = {
+		3DAFD4472CFA3C320044D0E0 /* Build configuration list for PBXNativeTarget "SwfitUI_ChartView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3DAFD4482CFA3C320044D0E0 /* Debug */,
@@ -493,7 +515,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3DAFD44C2CFA3C320044D0E0 /* Build configuration list for PBXNativeTarget "DropDrugTests" */ = {
+		3DAFD44C2CFA3C320044D0E0 /* Build configuration list for PBXNativeTarget "SwfitUI_ChartViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3DAFD44D2CFA3C320044D0E0 /* Debug */,
